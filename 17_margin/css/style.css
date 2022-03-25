@@ -3,14 +3,17 @@
 .outer {
 	width: 600px;
 	height: 500px;
-	border: dotted 4px red;
+	border: none;
+	margin: 30px auto;
+
 }
 
 .inner {
 	width: 100px;
 	height: 100px;
 	background-color: orange;
-	margin: 50px 20px 30px;
+	/*margin: 50px 20px 30px;*/
+	margin: 50px 20px;
 	/*margin: 50px 20px 30px 40px;
 	/*margin-top: 50px;
 	margin-left: 50px;

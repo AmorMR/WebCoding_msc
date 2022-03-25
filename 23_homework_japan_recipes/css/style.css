@@ -1,0 +1,81 @@
+@import	url(reset.css);
+
+.heading {
+	height: 60px;
+	background-color: red;
+	border: none;
+	color: white;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+.footing {
+	height: 60px;
+	background-color: red;
+	border: none;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	color: whitesmoke;
+	font-family: sans-serif;
+}
+
+a {
+	color: white;
+	font-family: sans-serif;
+}
+
+.recipe_father {
+	display: inline-block;
+	font-size: 0;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px;
+}
+.recipe_one {
+	width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	border: 1px solid black;
+	border-color: #E5E000;
+	display: inline-block;
+	font-size: 25px;
+	margin: 112px 50px 112px 50px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.recipe_two {
+width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	border: 1px solid black;
+	border-color: #E5E000;
+	display: inline-block;
+	font-size: 25px;
+	margin: 112px 50px 112px 50px;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+.recipe_three {
+	width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	border: 1px solid black;
+	border-color: #E5E000;
+	display: inline-block;
+	font-size: 25px;
+	margin: 112px 50px 112px 50px;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
