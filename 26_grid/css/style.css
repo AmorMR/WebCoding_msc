@@ -1,0 +1,64 @@
+@import	url(reset.css);
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(80px, auto);
+}
+	
+.wrapper{
+	border: 2px solid #f07255;
+	background-color: skyblue;
+	border-radius: 10px;
+	box-sizing: border-box;
+	text-indent: 10px;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+}
+
+.box {
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.box1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.nested {
+	border: 1px solid violet;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.box2 {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.box3 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.box4 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.box5 {
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
