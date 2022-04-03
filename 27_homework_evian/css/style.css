@@ -1,0 +1,89 @@
+@import	url(reset.css);
+
+
+.heading {
+	height: 140px;
+	background-color: white;
+	border: none;
+	display: flex;
+	justify-content: space-between;
+	color: red;
+}
+
+.brandName {
+	font-size: 50px;
+	color: red;
+	font-family: Arial;
+	padding: 50px 50px;
+}
+
+.links {
+	padding: 50px 50px;
+}
+
+a {
+	font-family: Arial;
+	font-size: 50px;
+	color: red;
+	text-decoration: none;	
+}
+
+.top_blank {
+	width: 990px;
+	height: 280px;
+	border: 1px solid #F8BFC7;
+	border-radius: 20px;
+	padding: 24px;
+	display: flex;
+	margin: 100px 199px 150px 201px;
+	box-sizing: border-box;
+	font-size: 25px;
+
+}
+
+.main_bottle {
+	display: flex;
+	justify-content: space-around;
+}
+
+.undercaption {
+	padding: 20px;
+	text-align: center;
+}
+
+.lower_blank {
+	width: 990px;
+	height: 280px;
+	border: 1px solid #F8BFC7;
+	border-radius: 20px;
+	padding: 24px;
+	display: flex;
+	margin: 100px 199px 150px 201px;
+	box-sizing: border-box;
+}
+
+
+.lower_descr{
+ font-size: 25px;
+ padding: 5px 50px;
+}
+
+.footing {
+	height: 140px;
+	background-color: #F8BFC7;
+	border: none;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright {
+	font-size: 40px;
+	font-family: Arial sans-serif;
+	padding: 50px 50px;
+}
+
+.back {
+	padding: 50px 50px;
+	color: white;
+}
