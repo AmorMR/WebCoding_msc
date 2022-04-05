@@ -8,6 +8,16 @@
 	display: flex;
 	justify-content: space-between;
 	color: red;
+	position: fixed;
+	width: 100%;
+}
+
+.heroblock {
+	width: 100%;
+	height: 850px;
+	background-image:url("../img/evian_origins_logo.png");
+	width: 100%;
+	background-position: center;
 }
 
 .brandName {
@@ -16,11 +26,7 @@
 	font-family: Arial;
 	padding: 50px 50px;
 }
-
-.links {
-	padding: 50px 50px;
-}
-
+	
 a {
 	font-family: Arial;
 	font-size: 50px;
@@ -28,46 +34,42 @@ a {
 	text-decoration: none;	
 }
 
-.top_blank {
-	width: 990px;
+.content {
+	display: block;
+	position: relative;
+	margin-top: 150px;
+	margin-left: 150px;
+	margin-bottom: 150px;
+}
+
+.textblock {
+	width: 1040px;
 	height: 280px;
-	border: 1px solid #F8BFC7;
+	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	padding: 24px;
-	display: flex;
-	margin: 100px 199px 150px 201px;
 	box-sizing: border-box;
-	font-size: 25px;
-
-}
-
-.main_bottle {
-	display: flex;
-	justify-content: space-around;
-}
-
-.undercaption {
 	padding: 20px;
-	text-align: center;
+	font-size: 25px;
+	line-height: 29px;
 }
 
-.lower_blank {
-	width: 990px;
-	height: 280px;
-	border: 1px solid #F8BFC7;
-	border-radius: 20px;
-	padding: 24px;
+.textblock.flex-block {
 	display: flex;
-	margin: 100px 199px 150px 201px;
-	box-sizing: border-box;
 }
 
+.bottles {
+	display: flex;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	justify-content: space-around;
+	text-align: center;
 
-.lower_descr{
- font-size: 25px;
- padding: 5px 50px;
 }
 
+.brands {
+	padding-top: 10px;
+
+}
 .footing {
 	height: 140px;
 	background-color: #F8BFC7;
