@@ -39,6 +39,7 @@
 			animation-name: rotate;
 			animation-duration: 10s;
 			animation-iteration-count: infinite;
+			animation-timing-function:cubic-bezier(.65,.78,.34,.3);
 
 			/* вызовите вашу анимацию здесь */
 		}
