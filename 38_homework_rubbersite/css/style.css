@@ -15,10 +15,10 @@ html {
 .columns {
 	width: 90vw;
 	margin: auto;
-	min-height: 40px;
+	/*max-height: 1300px;*/
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items:flex-start;
 	padding-top: 70px;
 	padding-bottom: 70px;
 
@@ -27,6 +27,18 @@ html {
 .column {
 	width: calc((100% - 100px)/3);
 	border: 1px solid black;
+}
+
+.column.one {
+	min-height: 350px;
+}
+
+.column.two {
+	min-height: 400px;
+}
+
+.column.three {
+	min-height: 500px;
 }
 
 .image1 {
